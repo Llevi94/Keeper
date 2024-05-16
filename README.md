@@ -17,6 +17,8 @@ Keeper is a MERN (MongoDB, Express.js, React.js, Node.js) project:
 
 In the deployment process of the Keeper project, a strategic decision was made to utilize Vercel. This platform was chosen for its capability to seamlessly segregate server-side and client-side components, thereby guaranteeing a scalable and modular architecture.
 
+[Visit the Keeper project site](https://keeper-gold.vercel.app/)
+
 <br>
 
 <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="100" height="100">
