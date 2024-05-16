@@ -1,4 +1,4 @@
-# Keeper Project [![Keeper Logo](https://i.ibb.co/vjPy135/Keeper-Logo.png)](https://keeper-gold.vercel.app/)
+# [![Keeper Project](https://i.ibb.co/vjPy135/Keeper-Logo.png)](https://keeper-gold.vercel.app/)
 
 Keeper is a full-stack project aimed at simplifying the process of capturing thoughts, notes, or lists. <br>Users can effortlessly jot down their ideas or to-do lists, keeping everything organized and accessible in one place.
 
