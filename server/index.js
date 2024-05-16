@@ -23,13 +23,13 @@ app.use((req, res, next) => {
 
 /**middlewares */
 app.use(cors()); //connecting servers
-app.use(cors(
-  {
-    origin: ['https://keeper-khaki.vercel.app'],
-    methods: ["POST", "GET", "DELETE", "PUT", "PATCH"],
-    credentials: true
-  }
-))
+// app.use(cors(
+//   {
+//     origin: ['https://keeper-khaki.vercel.app'],
+//     methods: ["POST", "GET", "DELETE", "PUT", "PATCH"],
+//     credentials: true
+//   }
+// ));
 app.use(express.json());
 app.use("/notes", notesRouter);
 

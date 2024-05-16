@@ -11,7 +11,7 @@ html {
 body {
   background: #eee;
   padding: 0 16px;
-  background-image: url(../assets/images/background.png);
+  background-image: url(/background.png);
 }
 
 header {
