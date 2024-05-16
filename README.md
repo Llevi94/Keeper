@@ -19,11 +19,11 @@ In the deployment process of the Keeper project, a strategic decision was made t
 
 ## Project Images
 
-<img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="150" height="100">
+<img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="100" height="100">
 <img src="https://miro.medium.com/max/600/1*YekyuOZGMw-kGOEqU4YPZg.jpeg" width="150" height="100">
 <img src="https://www.freepnglogos.com/uploads/javascript/logo-html-5-css-javascript-source-code-for-the-taking-23.png" width="150" height="100">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Vercel_Logo_-_Dark_Background.svg" width="150" height="100">
-<img src="https://seeklogo.com/images/V/vercel-logo-369E16D29B-seeklogo.com.png" width="150" height="100">
+<img src="https://logowik.com/content/uploads/images/vercel1868.jpg" width="150" height="100">
+
 
 
 ## Project Stats
