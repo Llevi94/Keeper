@@ -30,7 +30,7 @@ app.use(cors(
     methods: ["POST", "GET", "DELETE", "PUT", "PATCH"],
     credentials: true
   }
-))
+));
 app.use(express.json());
 app.use("/notes", notesRouter);
 

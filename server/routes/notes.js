@@ -1,5 +1,6 @@
 import Router from "express";
 import Note from "../models/note.model.js";
+import cors from "cors";
 
 const router = Router();
 
@@ -13,6 +14,14 @@ app.use((req, res, next) => {
   );
   next();
 });
+
+app.use(cors(
+  {
+    origin: ['https://keeper-khaki.vercel.app'],
+    methods: ["POST", "GET", "DELETE", "PUT", "PATCH"],
+    credentials: true
+  }
+));
 
 router.route("/").get((req, res) => {
   // Show all notes
