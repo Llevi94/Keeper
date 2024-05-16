@@ -14,15 +14,19 @@ const port = process.env.SERVER_PORT || 5000;
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Allow-Headers");
-  if (req.method === "OPTIONS") {
-    res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
-    return res.status(200).json({});
-  }
+  res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
   next();
 });
 
 /**middlewares */
 app.use(cors()); //connecting servers
+app.use(cors(
+  {
+    origin: ['https://keeper-khaki.vercel.app'],
+    methods: ["POST", "GET", "DELETE", "PUT", "PATCH"],
+    credentials: true
+  }
+))
 app.use(express.json());
 app.use("/notes", notesRouter);
 
