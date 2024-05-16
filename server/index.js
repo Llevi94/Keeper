@@ -11,16 +11,16 @@ env.config(); //hidden vars in env file
 const app = express();
 const port = process.env.SERVER_PORT || 5000;
 
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Allow-Headers");
-  res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
-  res.header(
-    "Cache-Control",
-    "no-cache, no-store, max-age=0, must-revalidate"
-  );
-  next();
-});
+// app.use((req, res, next) => {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Allow-Headers");
+//   res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
+//   res.header(
+//     "Cache-Control",
+//     "no-cache, no-store, max-age=0, must-revalidate"
+//   );
+//   next();
+// });
 
 /**middlewares */
 app.use(cors()); //connecting servers

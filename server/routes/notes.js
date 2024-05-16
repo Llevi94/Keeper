@@ -3,6 +3,17 @@ import Note from "../models/note.model.js";
 
 const router = Router();
 
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Allow-Headers");
+  res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
+  res.header(
+    "Cache-Control",
+    "no-cache, no-store, max-age=0, must-revalidate"
+  );
+  next();
+});
+
 router.route("/").get((req, res) => {
   // Show all notes
   Note.find()
