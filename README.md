@@ -21,11 +21,12 @@ In the deployment process of the Keeper project, a strategic decision was made t
 
 <br>
 
+<p float="left">
 <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="100" height="100">
 <img src="https://miro.medium.com/max/600/1*YekyuOZGMw-kGOEqU4YPZg.jpeg" width="150" height="100">
 <img src="https://www.freepnglogos.com/uploads/javascript/logo-html-5-css-javascript-source-code-for-the-taking-23.png" width="150" height="100">
 <img src="https://logowik.com/content/uploads/images/vercel1868.jpg" width="150" height="100">
-
+</p>
 ------------------
 
 ![GitHub language count](https://img.shields.io/github/languages/count/Llevi94/Cost_Manager)
