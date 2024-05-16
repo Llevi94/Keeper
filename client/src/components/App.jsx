@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/notes/")
+      .get("https://keeper-steel.vercel.app/notes/")
       .then((res) => {
         setNotes(res.data);
       })
@@ -28,7 +28,7 @@ function App() {
 
   function deleteNote(id) {
     //Deleting a note and updating the notes view
-    axios.delete(`http://localhost:5000/notes/${id}`);
+    axios.delete(`https://keeper-steel.vercel.app/notes/${id}`);
     setNotes((prevNotes) => {
       return prevNotes.filter((noteItem, index) => {
         return index !== id;

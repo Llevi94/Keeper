@@ -37,7 +37,7 @@ function CreateArea(props) {
   function submitNote(event) {
     //Adding a note and resetting the fields
     props.onAdd(note);
-    axios.post("http://localhost:5000/notes", note);
+    axios.post("https://keeper-steel.vercel.app/notes", note);
 
     setNote({
       title: "",
