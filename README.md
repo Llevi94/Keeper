@@ -29,6 +29,6 @@ In the deployment process of the Keeper project, a strategic decision was made t
 </p>
 ------------------
 
-![GitHub language count](https://img.shields.io/github/languages/count/Llevi94/Cost_Manager)
-![GitHub top language](https://img.shields.io/github/languages/top/Llevi94/Cost_Manager?color=yellow)
-![GitHub last commit](https://img.shields.io/github/last-commit/Llevi94/Cost_Manager?color=red&style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/Llevi94/Keeper)
+![GitHub top language](https://img.shields.io/github/languages/top/Llevi94/Keeper?color=yellow)
+![GitHub last commit](https://img.shields.io/github/last-commit/Llevi94/Keeper?color=red&style=plastic)
